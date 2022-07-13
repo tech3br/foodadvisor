@@ -5,7 +5,7 @@ import DraftFilterButton from "./extensions/components/DraftFilterButton";
 
 export default {
   config: {
-    locales: ["fr"],
+    locales: ["fr", "pt_BR"],
     translations: {
       fr: {
         "components.DraftFilterButton.show-drafts": "Afficher les drafts",
@@ -20,6 +20,12 @@ export default {
         "components.PreviewButton.button": "Preview",
         "components.TweetButton.button": "Share on Twitter",
       },
+      pt_BR: {
+        "components.DraftFilterButton.show-drafts": "Mostrar Rascunhos",
+        "components.DraftFilterButton.hide-drafts": "Hide drafts",
+        "components.PreviewButton.button": "Preview",
+        "components.TweetButton.button": "Share on Twitter",
+      }
     },
   },
   bootstrap(app) {

@@ -1,21 +1,21 @@
 module.exports = {
   // mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#e27d60',
-          light: '#e48a6f',
-          darker: '#cb7056',
+          DEFAULT: '#4420D5',
+          light: '#4420D5',
+          darker: '#0D0628',
           text: '#FFFFFF',
           lightest: '#f0beaf',
         },
         secondary: {
-          DEFAULT: '#41b3a3',
-          light: '#85dcb',
-          darker: '#3aa192',
+          DEFAULT: '#C247B4',
+          light: '#C247B4',
+          darker: '#0D0628',
           text: '#FFFFFF',
           lightest: '#ecf7f5',
         },

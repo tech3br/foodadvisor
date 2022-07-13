@@ -28,7 +28,7 @@ const Navigation = ({ navigation, pageData, type }) => {
                 data-show-count="true"
                 aria-label="Star strapi/foodadvisor on GitHub"
               >
-                Star
+                Contatos
               </a>
             </div>
             <Cta
