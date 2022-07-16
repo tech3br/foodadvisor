@@ -5,11 +5,15 @@ const Cta = ({ title, text, buttons, theme }) => {
   return (
     <div className={`bg-${theme}`}>
       <div className="lg:flex lg:items-center lg:justify-between w-2/3 mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-        <h2 className="text-3xl font-extrabold text-black sm:text-4xl">
-          {title && <span className="block">{title}</span>}
-          {text && <span className="block text-white">{text}</span>}
-        </h2>
-        <div className="lg:mt-0 lg:flex-shrink-0 space-x-2">
+        <div className='lg:mt-0 lg:flex-shrink-0'>
+          <h2 className="text-2xl font-extrabold text-black sm:text-3xl">
+            {title && <span className="block">{title}</span>}
+          </h2>
+          <p className="text-1xl font-normal text-white sm:text-2xl">
+            {text && <span className="block text-white">{text}</span>}
+          </p>
+        </div>
+        <div className="lg:mt-0 lg:flex-shrink-0">
           {buttons &&
             buttons.map((button, index) => (
               <div
@@ -26,16 +30,10 @@ const Cta = ({ title, text, buttons, theme }) => {
                       className={`py-4 px-6 bg-${delve(
                         button,
                         'theme'
-                      )} hover:bg-${delve(
+                      )} hover:bg-secondary text-secondary-darker focus:ring-${delve(
                         button,
                         'theme'
-                      )}-darker focus:ring-${delve(
-                        button,
-                        'theme'
-                      )}-lighter text-${delve(
-                        button,
-                        'theme'
-                      )}-text w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg`}
+                      )}-lighter w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg`}
                     >
                       {delve(button, 'link.label')}
                     </button>

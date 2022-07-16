@@ -63,18 +63,6 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "reviews": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::review.review",
-      "mappedBy": "author"
-    },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article",
-      "mappedBy": "author"
-    },
     "picture": {
       "allowedTypes": [
         "images",

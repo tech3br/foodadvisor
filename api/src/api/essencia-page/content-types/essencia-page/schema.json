@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "essencias",
+  "info": {
+    "singularName": "essencia-page",
+    "pluralName": "essencias",
+    "displayName": "EssenciaPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Navigation": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "global.navigation"
+    }
+  }
+}

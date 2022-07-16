@@ -1,9 +1,9 @@
-import App from "next/app";
-import ErrorPage from "next/error";
-import { QueryClient, QueryClientProvider } from "react-query";
-import "tailwindcss/tailwind.css";
-import { getStrapiURL } from "../utils";
-import { getLocalizedParams } from "../utils/localize";
+import App from 'next/app';
+import ErrorPage from 'next/error';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import 'tailwindcss/tailwind.css';
+import { getStrapiURL } from '../utils';
+import { getLocalizedParams } from '../utils/localize';
 
 const queryClient = new QueryClient();
 
@@ -35,6 +35,8 @@ MyApp.getInitialProps = async (appContext) => {
     );
     const globalData = await res.json();
     const globalDataAttributes = globalData.data.attributes;
+
+    console.log('globalDataAttributes', globalDataAttributes);
 
     return { ...appProps, pageProps: { global: globalDataAttributes } };
   } catch (error) {
