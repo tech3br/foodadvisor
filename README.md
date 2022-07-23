@@ -80,11 +80,18 @@ Os principais focos desta aplicação são:
 
 ### Global:
 
-[API personalizável](https://strapi.io/features/customizable-api): crie automaticamente o esquema, modelos e controladores para sua API a partir do editor. Obtenha a API REST ou GraphQL pronta para uso sem escrever uma única linha de código.<br />
-[Biblioteca de mídia](https://strapi.io/features/media-library): A biblioteca de mídia permite que você armazene suas imagens, vídeos e arquivos no painel de administração do Strapi com várias maneiras de visualizá-los e gerenciá-los.<br / >
-[Controle de acesso baseado em função (RBAC)](https://strapi.io/features/custom-roles-and-permissions): o controle de acesso baseado em função é um recurso disponível nas configurações do Painel de administração que permite que os membros de sua equipe tenham direitos de acesso apenas às informações de que precisam.<br />
-[Internacionalização (i18n)](https://strapi.io/features/internationalization): A internacionalização (i18n) permite criar várias versões de conteúdo, também chamadas de localidades, em diferentes idiomas e para diferentes países.<br />
-
+[API personalizável](https://strapi.io/features/customizable-api): crie automaticamente o esquema, modelos e controladores para sua API a partir do editor. Obtenha a API REST ou GraphQL pronta para uso sem escrever uma única linha de código.
+<br />
+<br />
+[Biblioteca de mídia](https://strapi.io/features/media-library): A biblioteca de mídia permite que você armazene suas imagens, vídeos e arquivos no painel de administração do Strapi com várias maneiras de visualizá-los e gerenciá-los.
+<br / >
+<br />
+[Controle de acesso baseado em função (RBAC)](https://strapi.io/features/custom-roles-and-permissions): o controle de acesso baseado em função é um recurso disponível nas configurações do Painel de administração que permite que os membros de sua equipe tenham direitos de acesso apenas às informações de que precisam.
+<br />
+<br />
+[Internacionalização (i18n)](https://strapi.io/features/internationalization): A internacionalização (i18n) permite criar várias versões de conteúdo, também chamadas de localidades, em diferentes idiomas e para diferentes países.
+<br />
+<br />
 
 ## 📍 URL e Recursos:
 
