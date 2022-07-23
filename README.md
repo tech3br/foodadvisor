@@ -59,12 +59,18 @@ Os principais focos desta aplicação são:
 
 ### Para o comerciante as principais funcionalidades do CMS são:
 
-**Um editor intuitivo e mínimo** O editor permite que você insira blocos dinâmicos de conteúdo. É 100% de código aberto e totalmente extensível.<br />
-**Biblioteca de mídia** Faça upload de imagens, vídeos ou qualquer arquivo e corte e otimize seus tamanhos, sem perda de qualidade.<br />
-**Gerenciamento de conteúdo flexível** Crie qualquer tipo de categoria, seção, formato ou fluxo para se adaptar às suas necessidades. <br />
-**Classificar e filtrar** Classificação e filtragem integradas: você pode gerenciar milhares de entradas sem esforço.<br />
-**Interface amigável** A interface de código aberto mais amigável do mercado.<br />
-**Otimizado para SEO** Gerencie facilmente seus metadados de SEO com um campo repetível e use nossa Biblioteca de mídia para adicionar legendas, notas e nomes de arquivo personalizados para otimizar o SEO de ativos de mídia.<br /><br />
+**Um editor intuitivo e mínimo** O editor permite que você insira blocos dinâmicos de conteúdo. É 100% de código aberto e totalmente extensível.
+<br />
+**Biblioteca de mídia** Faça upload de imagens, vídeos ou qualquer arquivo e corte e otimize seus tamanhos, sem perda de qualidade.
+<br />
+**Gerenciamento de conteúdo flexível** Crie qualquer tipo de categoria, seção, formato ou fluxo para se adaptar às suas necessidades.
+<br />
+**Classificar e filtrar** Classificação e filtragem integradas: você pode gerenciar milhares de entradas sem esforço.
+<br />
+**Interface amigável** A interface de código aberto mais amigável do mercado.
+<br />
+**Otimizado para SEO** Gerencie facilmente seus metadados de SEO com um campo repetível e use nossa Biblioteca de mídia para adicionar legendas, notas e nomes de arquivo personalizados para otimizar o SEO de ativos de mídia.
+<br />
 
 ### Global:
 
