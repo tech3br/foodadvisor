@@ -1,6 +1,6 @@
 # 🧑‍💻 Sistema de Gerenciamento para Comércios 🧑‍💻
 
-## Escopo:
+## 📍 Escopo:
 
 Este sistema tem como objetivos principais gerenciar o fluxo de um comércio, como adegas, bares, lounges, restaurantes ou qualquer estabelecimento com modelos de negócios parecidos. 
 
@@ -12,13 +12,13 @@ Os principais focos desta aplicação são:
 * Publicidade;
 * Delivery;
 
-## Estrutura do projeto e aplicação:
+## 📍 Estrutura do projeto e aplicação:
 
 * **💻 Client**: Um cliente web com o **framework ``NextJS``**, que tem como objetivo mostrar os produtos, serviços e também fornece ao vendedor a possibilidade de vender on-line.
 
 * **🔨 API**: Um painel administrativo/gerenciador de conteúdo com o **headless CMS ``Strapi``**.
 
-## Pré-requisitos:
+## 📍 Pré-requisitos:
 
 ### NodeJS & Yarn:
  
@@ -27,7 +27,7 @@ Os principais focos desta aplicação são:
 - **NodeJS**: Preferencialmente a última versão.
 - **Yarn**: Preferencialmente a última versão.
 
-### Váriáveis de ambiente:
+### 📍 Váriáveis de ambiente:
 
 **⚠️ Certifique-se de ter as variáveis env corretas para cada parte ⚠️:**
 
@@ -39,7 +39,7 @@ Os principais focos desta aplicação são:
   - `NEXT_PUBLIC_API_URL=<url-of-strapi>`
   - `PREVIEW_SECRET=<the-same-random-token-as-for-strapi>`
 
-## Inicie o Strapi (API):
+## 📍 Inicie o Strapi (API):
 
  1. Navegue até a pasta `../foodadvisor/api` executando `cd api` no seu terminal.
  2. Em seguida, execute o seguinte comando na pasta `./foodadvisor/api`:
@@ -47,7 +47,7 @@ Os principais focos desta aplicação são:
  
 **⚠️ Isso instalará as dependências, preencherá seu aplicativo com dados e executará seu servidor. Você pode executar esses comandos separadamente ⚠️**.
 
-## Inicie o NextJS (Client):
+## 📍 Inicie o NextJS (Client):
 
  1. Navegue até a pasta `../foodadvisor/client` executando ``cd client`` no seu terminal.
  2. Em seguida, execute o seguinte comando na pasta `../foodadvisor/client`:
@@ -55,7 +55,7 @@ Os principais focos desta aplicação são:
  
 **⚠️ Isso instalará as dependências, preencherá seu aplicativo com dados e executará seu servidor. Você pode executar esses comandos separadamente ⚠️**.
 
-## Visão geral dos recursos do Strapi:
+## 📍 Visão geral dos recursos do Strapi:
 
 ### Para o comerciante as principais funcionalidades do CMS são:
 
@@ -74,6 +74,6 @@ Os principais focos desta aplicação são:
 [Internacionalização (i18n)](https://strapi.io/features/internationalization): A internacionalização (i18n) permite criar várias versões de conteúdo, também chamadas de localidades, em diferentes idiomas e para diferentes países.<br />
 
 
-## URL e Recursos:
+## 📍 URL e Recursos:
 
 [Docs](https://docs.strapi.io) • [Demo](https://strapi.io/demo) • [Starters](https://strapi.io/starters) • [Forum](https://forum.strapi.io/) • [Discord](https://discord.strapi.io) • [Youtube](https://www.youtube.com/c/Strapi/featured) • [Try Enterprise Edition](https://strapi.io/enterprise) • [Strapi Design System](https://design-system.strapi.io/) • [Marketplace](https://market.strapi.io/)
