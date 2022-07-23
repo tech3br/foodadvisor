@@ -1,88 +1,79 @@
-# FoodAdvisor - Strapi Demo
+# 🧑‍💻 Sistema de Gerenciamento para Comércios 🧑‍💻
 
-![FoodAdvisor](./foodadvisor.png)
+## Escopo:
 
-Welcome to FoodAdvisor, the official Strapi demo application.
-This repository contains the following:
+Este sistema tem como objetivos principais gerenciar o fluxo de um comércio, como adegas, bares, lounges, restaurantes ou qualquer estabelecimento com modelos de negócios parecidos. 
 
-- Strapi project with existing Content-types and data (`/api`)
-- Next.js client ready to fetch the content of the Strapi application (`/client`)
+Os principais focos desta aplicação são:
 
-[![Open in Gitpod](https://camo.githubusercontent.com/76e60919474807718793857d8eb615e7a50b18b04050577e5a35c19421f260a3/68747470733a2f2f676974706f642e696f2f627574746f6e2f6f70656e2d696e2d676974706f642e737667)](http://gitpod.io/#https://github.com/strapi/foodadvisor)
+* Vendas;
+* Marketing;
+* Marketplace;
+* Publicidade;
+* Delivery;
 
-## Get started
+## Estrutura do projeto e aplicação:
 
-You can get started with this project locally on your machine by following the instructions below or you can [request a private instance on our website](https://strapi.io/demo).
+* **💻 Client**: Um cliente web com o **framework ``NextJS``**, que tem como objetivo mostrar os produtos, serviços e também fornece ao vendedor a possibilidade de vender on-line.
 
-## Prerequisites
+* **🔨 API**: Um painel administrativo/gerenciador de conteúdo com o **headless CMS ``Strapi``**.
 
-Be sure to have the correct env variables for each part:
+## Pré-requisitos:
 
-- Strapi (example in `./api/.env.example`):
+### NodeJS & Yarn:
+ 
+**⚠️ Certifique que você tenha o NodeJS e o Yarn instalados na sua máquina com a última versão LTS. ⚠️** 
+
+- **NodeJS**: Preferencialmente a última versão.
+- **Yarn**: Preferencialmente a última versão.
+
+### Váriáveis de ambiente:
+
+**⚠️ Certifique-se de ter as variáveis env corretas para cada parte ⚠️:**
+
+- Strapi (example: `./api/.env.example`):
   - `STRAPI_ADMIN_CLIENT_URL=<url-of-nextjs>`
   - `STRAPI_ADMIN_CLIENT_PREVIEW_SECRET=<a-random-token>`
 
-- Next.js (already in `./client/.env.development`):
+- Next.js (está na: `./client/.env.development`):
   - `NEXT_PUBLIC_API_URL=<url-of-strapi>`
   - `PREVIEW_SECRET=<the-same-random-token-as-for-strapi>`
 
-## 1. Clone FoodAdvisor
+## Inicie o Strapi (API):
 
-- Clone the repository by running the following command:
+ 1. Navegue até a pasta `../foodadvisor/api` executando `cd api` no seu terminal.
+ 2. Em seguida, execute o seguinte comando na pasta `./foodadvisor/api`:
+ 3. Digite: ``` yarn && yarn seed && yarn develop ``` 
+ 
+**⚠️ Isso instalará as dependências, preencherá seu aplicativo com dados e executará seu servidor. Você pode executar esses comandos separadamente ⚠️**.
 
-```
-git clone https://github.com/strapi/foodadvisor.git
-```
+## Inicie o NextJS (Client):
 
-- Navigate to your project folder by running `cd foodadvisor`.
+ 1. Navegue até a pasta `../foodadvisor/client` executando ``cd client`` no seu terminal.
+ 2. Em seguida, execute o seguinte comando na pasta `../foodadvisor/client`:
+ 3. Digite: ``` yarn && yarn dev ``` 
+ 
+**⚠️ Isso instalará as dependências, preencherá seu aplicativo com dados e executará seu servidor. Você pode executar esses comandos separadamente ⚠️**.
 
-## 2. Start Strapi
+## Visão geral dos recursos do Strapi:
 
-Navigate to your `./my-projects/foodadvisor/api` folder by running `cd api` from your command line.
+### Para o comerciante as principais funcionalidades do CMS são:
 
-- Run the following command in your `./foodadvisor/api` folder:
+**Um editor intuitivo e mínimo** O editor permite que você insira blocos dinâmicos de conteúdo. É 100% de código aberto e totalmente extensível.<br />
+**Biblioteca de mídia** Faça upload de imagens, vídeos ou qualquer arquivo e corte e otimize seus tamanhos, sem perda de qualidade.<br />
+**Gerenciamento de conteúdo flexível** Crie qualquer tipo de categoria, seção, formato ou fluxo para se adaptar às suas necessidades. <br />
+**Classificar e filtrar** Classificação e filtragem integradas: você pode gerenciar milhares de entradas sem esforço.<br />
+**Interface amigável** A interface de código aberto mais amigável do mercado.<br />
+**Otimizado para SEO** Gerencie facilmente seus metadados de SEO com um campo repetível e use nossa Biblioteca de mídia para adicionar legendas, notas e nomes de arquivo personalizados para otimizar o SEO de ativos de mídia.<br /><br />
 
-```
-yarn && yarn seed && yarn develop
-```
+### Global:
 
-This will install the dependencies, fill your application with data and run your server. You can run these commands separately.
-
-## 3. Start Next.js
-
-Navigate to your `./my-projects/foodadvisor/client` folder by running `cd client` from your command line.
-
-- Run the following command in your `./foodadvisor/client` folder
-
-```
-yarn && yarn dev
-```
-
-This will install the dependencies, and run your server. You can run these commands separately.
-
-## Features overview
-
-### User
-
-<br />
-
-**An intuitive, minimal editor** The editor allows you to pull in dynamic blocks of content. It’s 100% open-source, and it’s fully extensible.<br />
-**Media Library** Upload images, video or any files and crop and optimize their sizes, without quality loss.<br />
-**Flexible content management** Build any type of category, section, format or flow to adapt to your needs. <br />
-**Sort and Filter** Built-in sorting and filtering: you can manage thousands of entries without effort.<br />
-**User-friendly interface** The most user-friendly open-source interface on the market.<br />
-**SEO optimized** Easily manage your SEO metadata with a repeatable field and use our Media Library to add captions, notes, and custom filenames to optimize the SEO of media assets.<br /><br />
-
-### Global
-
-<br />
-
-[Customizable API](https://strapi.io/features/customizable-api): Automatically build out the schema, models, controllers for your API from the editor. Get REST or GraphQL API out of the box without writing a single line of code.<br />
-[Media Library](https://strapi.io/features/media-library): The media library allows you to store your images, videos and files in your Strapi admin panel with many ways to visualize and manage them.<br />
-[Role-Based Access Control (RBAC)](https://strapi.io/features/custom-roles-and-permissions): Role-Based Access Control is a feature available in the Administration Panel settings that let your team members have access rights only to the information they need.<br />
-[Internationalization (i18n)](https://strapi.io/features/internationalization): Internationalization (i18n) lets you create many content versions, also called locales, in different languages and for different countries.<br />
+[API personalizável](https://strapi.io/features/customizable-api): crie automaticamente o esquema, modelos e controladores para sua API a partir do editor. Obtenha a API REST ou GraphQL pronta para uso sem escrever uma única linha de código.<br />
+[Biblioteca de mídia](https://strapi.io/features/media-library): A biblioteca de mídia permite que você armazene suas imagens, vídeos e arquivos no painel de administração do Strapi com várias maneiras de visualizá-los e gerenciá-los.<br / >
+[Controle de acesso baseado em função (RBAC)](https://strapi.io/features/custom-roles-and-permissions): o controle de acesso baseado em função é um recurso disponível nas configurações do Painel de administração que permite que os membros de sua equipe tenham direitos de acesso apenas às informações de que precisam.<br />
+[Internacionalização (i18n)](https://strapi.io/features/internationalization): A internacionalização (i18n) permite criar várias versões de conteúdo, também chamadas de localidades, em diferentes idiomas e para diferentes países.<br />
 
 
-## Resources
+## URL e Recursos:
 
 [Docs](https://docs.strapi.io) • [Demo](https://strapi.io/demo) • [Starters](https://strapi.io/starters) • [Forum](https://forum.strapi.io/) • [Discord](https://discord.strapi.io) • [Youtube](https://www.youtube.com/c/Strapi/featured) • [Try Enterprise Edition](https://strapi.io/enterprise) • [Strapi Design System](https://design-system.strapi.io/) • [Marketplace](https://market.strapi.io/)
