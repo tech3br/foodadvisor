@@ -84,7 +84,7 @@ Os principais focos desta aplicação são:
 <br />
 <br />
 [Biblioteca de mídia](https://strapi.io/features/media-library): A biblioteca de mídia permite que você armazene suas imagens, vídeos e arquivos no painel de administração do Strapi com várias maneiras de visualizá-los e gerenciá-los.
-<br / >
+<br />
 <br />
 [Controle de acesso baseado em função (RBAC)](https://strapi.io/features/custom-roles-and-permissions): o controle de acesso baseado em função é um recurso disponível nas configurações do Painel de administração que permite que os membros de sua equipe tenham direitos de acesso apenas às informações de que precisam.
 <br />
